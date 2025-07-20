@@ -1,0 +1,387 @@
+/* ====== HOMEPAGE STYLES ====== */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.space-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+/* ====== ACTIVE STYLE ====== */
+
+
+.star-link {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+#pk:hover {
+  border-color: #FF073A;
+  box-shadow: 0 0 15px 6px #FF073A;
+}
+
+#kp:hover {
+  border-color: #39FF14;
+  box-shadow: 0 0 15px 6px #39FF14;
+}
+
+#zw:hover {
+  border-color: #00FFFF;
+  box-shadow: 0 0 15px 6px #00FFFF;
+
+}
+
+
+/* ====== STYLE Archive (Commented Out) ======
+
+
+====== STYLE Archive: 1; ======
+
+.star-link {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+.star-link:hover {
+  border-color: white;
+  box-shadow: 0 0 12px 4px rgba(255, 255, 255, 0.6);
+}
+
+====== STYLE Archive: 2; ======
+
+.star-link {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+#pk:hover {
+  border-color: cyan;
+  box-shadow: 0 0 15px 6px rgba(0, 255, 255, 0.7);
+}
+
+#kp:hover {
+  border-color: magenta;
+  box-shadow: 0 0 15px 6px rgba(255, 0, 255, 0.7);
+}
+
+#zw:hover {
+  border-color: lime;
+  box-shadow: 0 0 15px 6px rgba(0, 255, 0, 0.7);
+}
+
+
+*/
+
+#pk {
+  top: 32%;
+  left: 12.7%;
+}
+
+#kp {
+  top: 65%;
+  left: 23%;
+}
+
+#zw {
+  top: 38%;
+  left: 85%;
+}
+
+
+/* ====== PERSONAL PAGE STYLES ====== */
+
+.personal-page {
+  background-color: black;
+  color: white;
+  font-family: Georgia, 'Times New Roman', serif;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem auto;
+  border: 2px solid cyan;
+}
+
+.bio-text {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.bio-text h1 {
+  font-size: 2.5rem;
+  color: cyan;
+}
+
+.bio-text p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.posts-section {
+  margin-bottom: 2rem;
+}
+
+.posts-section h2 {
+  text-align: center;
+  color: magenta;
+  margin-bottom: 1rem;
+}
+
+.posts-box {
+  max-height: 200px;
+  overflow-y: scroll;
+  border: 1px solid gray;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.post {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid gray;
+  font-size: 1rem;
+}
+
+.links-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.links-column {
+  flex: 1 1 40%;
+  margin: 1rem;
+}
+
+.links-column h3 {
+  text-align: center;
+  color: lime;
+  margin-bottom: 0.5rem;
+}
+
+.links-column ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.links-column li {
+  margin: 0.5rem 0;
+}
+
+.links-column a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.links-column a:hover {
+  color: cyan;
+}
+
+.back-home {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.back-home a {
+  color: gray;
+  text-decoration: none;
+}
+
+.back-home a:hover {
+  color: white;
+}
+
+
+/* OLD
+.personal-page {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.intro-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.intro-section h1 {
+  font-size: 3rem;
+  color: cyan;
+}
+
+.links-section h2 {
+  text-align: center;
+  color: magenta;
+}
+
+.links-section ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.links-section li {
+  margin: 1rem 0;
+}
+
+.links-section a {
+  color: lime;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.links-section a:hover {
+  color: white;
+}
+
+.back-home {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.back-home a {
+  color: gray;
+  text-decoration: none;
+}
+
+.back-home a:hover {
+  color: white;
+}
+
+*/
+
+/* ====== WRITING PAGE STYLES ====== */
+
+
+.writing-page {
+  background-color: black;
+  color: white;
+  font-family: Georgia, 'Times New Roman', serif;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.writing-container {
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 2rem;
+  border: 2px solid #577590;
+  border-radius: 8px;
+}
+
+.writing-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: cyan;
+  margin-bottom: 0.5rem;
+}
+
+.writing-subtitle {
+  text-align: center;
+  color: gray;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.writing-about {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-left: 4px solid #002aff; 
+  font-size: 1.1rem;
+}
+
+.writing-scroll-box {
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: rgba(255, 255, 255, 0.07);
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.writing-document p {
+  margin-bottom: 1.5rem;
+  font-size: 1.0rem;
+  line-height: 1.6;
+  color: #faebd7; /* antique white */
+}
+
+.writing-document h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: ivory;
+}
+
+
+.back-home {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.back-home a {
+  color: gray;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.back-home a:hover {
+  color: cyan;
+}
+
+
+
+
+
+
+
+
+
+
+
